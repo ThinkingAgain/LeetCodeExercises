@@ -86,9 +86,64 @@ def myAtoi(str: str) -> int:
 def strStr(haystack: str, needle: str) -> int:
     return 0 if len(needle) == 0 else haystack.find(needle)
 
+"""
+报数
+===========================
+报数序列是一个整数序列，按照其中的整数的顺序进行报数，得到下一个数。其前五项如下：
+1.     1
+2.     11
+3.     21
+4.     1211
+5.     111221
+给定一个正整数 n（1 ≤ n ≤ 30），输出报数序列的第 n 项。
+注意：整数顺序将表示为一个字符串。
+"""
+def countAndSay(n: int) -> str:
+    seq = "1"
+    for i in range(n):
+        res = seq
+        newseq = ""
+        n = 0
+        while n < len(seq):
+            x = n+1
+            while(x < len(seq) and seq[x] == seq[n]):
+                x += 1
+            newseq += str(x-n)+seq[n]
+            n = x
+        seq = newseq
+    return res
+
+"""
+ 最长公共前缀
+ =====================================
+ 编写一个函数来查找字符串数组中的最长公共前缀。
+如果不存在公共前缀，返回空字符串 ""。
+"""
+def longestCommonPrefix(strs) -> str:
+    if len(strs) == 0 or strs[0] == "":
+        return ""
+    if len(strs) == 1:
+        return strs[0]
+    num = 0
+    for i in range(len(strs[0])):
+        comm = strs[0][i]
+        for x in strs:
+            if len(x) <= i or x[i] != comm:
+                num = i
+                break
+        else:
+            num = i + 1
+            continue
+        break
+    return strs[0][:num]
+
+
+
+
+
 
 
 if __name__ == "__main__":
     s = "abc"
-    t = ""
-    print(strStr(s, t))
+    t = ["dog","racecar","car"]
+    print(longestCommonPrefix(t))
