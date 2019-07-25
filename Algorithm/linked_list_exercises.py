@@ -93,6 +93,52 @@ class Solution:
         head.next = newhead
         return head
 
+    """
+    合并两个有序链表
+    ========================
+    将两个有序链表合并为一个新的有序链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。 
+    示例：    
+    输入：1->2->4, 1->3->4
+    输出：1->1->2->3->4->4
+    """
+    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
+        nodelist = []
+        while l1 != None:
+            nodelist.append(l1)
+            l1 = l1.next
+        while l2 != None:
+            nodelist.append(l2)
+            l2 = l2.next
+        nodelist.sort(key=lambda y:y.val)
+        for i in range(len(nodelist)-1):
+            nodelist[i].next = nodelist[i+1]
+        return nodelist[0] if nodelist else None
+
+    """
+    回文链表
+    ======================
+    请判断一个链表是否为回文链表。
+    示例 1:    
+    输入: 1->2
+    输出: false
+    示例 2:    
+    输入: 1->2->2->1
+    输出: true
+    进阶：
+    你能否用 O(n) 时间复杂度和 O(1) 空间复杂度解决此题？
+    """
+    def isPalindrome(self, head: ListNode) -> bool:
+        a = []
+        while head != None:
+            a.append(head.val)
+            head = head.next
+
+        return a == a[::-1]
+
+
+
+
+
 
 
 
@@ -100,9 +146,8 @@ class Solution:
 if __name__ == "__main__":
     solution = Solution()
 
-    li = [1, 2, 3, 4, 5]
-    head = solution.constructNodelist(li)
-    head = solution.reverseList_iterator(head)
-    print(head)
+    li = [1,2,3,2,1]
+    rl = solution.constructNodelist(li)
+    print(solution.isPalindrome(rl))
 
 
