@@ -52,11 +52,30 @@ class BinaryTree:
     def isValidBST(self, root: TreeNode) -> bool:
         if root == None:
             return True
-        if root.left != None and root.left.val > root.val:
-                return False
-        if (root.right != None and root.right.val < root.val):
-            return False
-        return self.isValidBST(root.left) and self.isValidBST(root.right)
+
+        def isvalid(root: TreeNode):
+            if root.left == None and root.right == None:
+                return True, root.val, root.val
+            if root.left == None:
+                rtorf, rmin, rmax = isvalid(root.right)
+                if rtorf and root.val < rmin:
+                    return True, root.val, rmax
+                else:
+                    return False, None, None
+            if root.right == None:
+                ltorf, lmin, lmax = isvalid(root.left)
+                if ltorf and root.val > lmax:
+                    return True, lmin, root.val
+                else:
+                    return False, None, None
+            ltorf, lmin, lmax = isvalid(root.left)
+            rtorf, rmin, rmax = isvalid(root.right)
+            if ltorf and rtorf and root.val > lmax and root.val < rmin:
+                return True, lmin, rmax
+            return False, None, None
+
+        return isvalid(root)[0]
+
 
 
 
@@ -65,7 +84,7 @@ class BinaryTree:
 
 if __name__ == "__main__":
     bt = BinaryTree()
-    a = [2,1,4,None,None,3,6]
+    a = [2,1,4,0,None,3,6]
     tt=bt.constructor(a)
     print(bt.isValidBST(tt))
 
