@@ -76,6 +76,77 @@ class BinaryTree:
 
         return isvalid(root)[0]
 
+    '''
+    对称二叉树
+    ==========================
+    给定一个二叉树，检查它是否是镜像对称的。
+    例如，二叉树 [1,2,2,3,4,4,3] 是对称的。    
+        1
+       / \
+      2   2
+     / \ / \
+    3  4 4  3
+    但是下面这个 [1,2,2,null,3,null,3] 则不是镜像对称的:
+     1
+   / \
+  2   2
+   \   \
+   3    3
+    '''
+    def isSymmetric(self, root: TreeNode) -> bool:
+        def isSym(l:TreeNode, r:TreeNode)->bool:
+            if l.val != r.val : return False
+            if l.left == None and r.right == None and l.right == None and r.left == None: return True
+            if l.left == None and r.right == None:
+                if l.right == None or r.left == None:return False
+                return isSym(l.right, r.left)
+            if l.right == None and r.left == None:
+                if l.left == None or r.right == None: return False
+                return isSym(l.left, r.right)
+            if l.left == None or r.right == None or l.right == None or r.left == None: return False
+            return isSym(l.left, r.right) and isSym(l.right, r.left)
+        if root == None: return True
+        if root.left == None and root.right == None : return True
+        if root.left == None or root.right == None: return  False
+        return isSym(root.left, root.right)
+
+    '''
+    二叉树的层次遍历
+    ==============================
+    给定一个二叉树，返回其按层次遍历的节点值。 （即逐层地，从左到右访问所有节点）。
+    例如:
+    给定二叉树: [3,9,20,null,null,15,7],    
+        3
+       / \
+      9  20
+        /  \
+       15   7
+    返回其层次遍历结果：    
+    [
+      [3],
+      [9,20],
+      [15,7]
+    ]
+    '''
+    def levelOrder(self, root: TreeNode) :
+        dict = {}
+        def lo (root:TreeNode, dict:dict, level:int):
+            if root == None: return
+            if level in dict:
+                dict[level].append(root.val)
+            else:
+                dict[level] = [root.val]
+            lo(root.left, dict, level+1)
+            lo(root.right, dict, level+1)
+        level = 0
+        lo(root, dict,level)
+        result = []
+        for key, val in dict.items():
+            result.append(val)
+        return result
+
+
+
 
 
 
@@ -84,8 +155,8 @@ class BinaryTree:
 
 if __name__ == "__main__":
     bt = BinaryTree()
-    a = [2,1,4,0,None,3,6]
+    a = [3,9,20,None,None,15,7]
     tt=bt.constructor(a)
-    print(bt.isValidBST(tt))
+    print(bt.levelOrder(tt))
 
 
