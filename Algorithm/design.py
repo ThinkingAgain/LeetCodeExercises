@@ -65,21 +65,25 @@ class MinStack:
         """
         initialize your data structure here.
         """
-        self.__mini_stack = []
-        self.__N = 0
-        self.__min_index = None
+        self.mini_stack = []
+        self.min = None
 
     def push(self, x: int) -> None:
-        self.__mini_stack.append(x)
-        self.__N += 1
+        self.mini_stack.append(x)
+        self.min = x if self.min is None else min(x, self.min)
 
     def pop(self) -> None:
-        self.__mini_stack.pop()
-        self.__N -= 1
+        if self.min == self.mini_stack.pop():
+            self.min = min(self.mini_stack) if self.mini_stack else None
+
 
     def top(self) -> int:
+        return self.mini_stack[-1]
 
     def getMin(self) -> int:
+        return self.min
+
+
 
 
 # Your MinStack object will be instantiated and called as such:
@@ -91,8 +95,26 @@ class MinStack:
 
 
 if __name__ == "__main__":
-    nums = [1, 2, 3, 4, 5]
-    sol = Solution(nums)
-    for _ in range(10):
-        print(sol.shuffle())
-    print(sol.reset())
+    mi = MinStack()
+    mi.push(3)
+    mi.push(8)
+    print(mi.mini_stack)
+    print(mi.min)
+
+    mi.push(1)
+    mi.push(5)
+    mi.push(9)
+    mi.push(4)
+    print(mi.mini_stack)
+
+    print(mi.min)
+    mi.pop()
+    print(mi.mini_stack)
+
+
+    print(mi.top())
+    mi.pop()
+    mi.pop()
+    mi.pop()
+    print(mi.mini_stack)
+    print(mi.getMin())
