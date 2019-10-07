@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54839f12-7ced-47b8-be2d-923043a124f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/LeetCodeExercises.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LeetCodeExercises.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hash/hash_map.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3900">
+            <state relative-caret-position="3640">
               <caret line="131" column="19" selection-start-line="130" selection-end-line="131" selection-end-column="19" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -52,11 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hash/summary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1624">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
@@ -69,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithm/tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5430">
+            <state relative-caret-position="5068">
               <caret line="181" column="13" selection-start-line="181" selection-start-column="4" selection-end-line="183" selection-end-column="25" />
             </state>
           </provider>
@@ -78,7 +74,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hash/hash_set.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
+            <state relative-caret-position="756">
               <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
@@ -120,9 +116,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="819" />
+    <option name="x" value="818" />
     <option name="width" value="1110" />
-    <option name="height" value="1041" />
+    <option name="height" value="1042" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -133,22 +129,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="LeetCodeExercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCodeExercises" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LeetCodeExercises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LeetCodeExercises" type="462c0819:PsiDirectoryNode" />
-              <item name="hash" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -348,19 +329,19 @@
       <workItem from="1569634276831" duration="12526000" />
       <workItem from="1569717037113" duration="1345000" />
       <workItem from="1569722347052" duration="6744000" />
+      <workItem from="1569988297350" duration="63000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154292000" />
+    <option name="totallyTimeSpent" value="154355000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.2497979" />
       <window_info id="Favorites" order="1" side_tool="true" weight="0.32983023" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.19320938" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.19571045" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.47957373" />
@@ -556,16 +537,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1110659496/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="4926" column="8" selection-start-line="4926" selection-start-column="8" selection-end-line="4926" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1110659496/builtins.py" />
     <entry file="file://$PROJECT_DIR$/hash/hash_map.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3900">
+        <state relative-caret-position="3640">
           <caret line="131" column="19" selection-start-line="130" selection-end-line="131" selection-end-column="19" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
@@ -573,27 +548,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/hash/summary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1624">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5430">
+        <state relative-caret-position="5068">
           <caret line="181" column="13" selection-start-line="181" selection-start-column="4" selection-end-line="183" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hash/hash_set.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
+        <state relative-caret-position="756">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hash/summary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
