@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54839f12-7ced-47b8-be2d-923043a124f5" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,27 +47,42 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DataAnalysis" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.summary">
+  <component name="RunManager" selected="Python.answer">
+    <configuration name="answer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="LeetCodeExercises" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tabs/栈-stack" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tabs/栈-stack/answer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="design_hash_table" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCodeExercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,28 +149,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="others" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCodeExercises" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Algorithm" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Algorithm/others.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="summary" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCodeExercises" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,13 +173,25 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.answer" />
         <item itemvalue="Python.summary" />
         <item itemvalue="Python.hash_map" />
         <item itemvalue="Python.hash_set" />
         <item itemvalue="Python.design_hash_table" />
-        <item itemvalue="Python.others" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -267,6 +271,48 @@
       </map>
     </option>
   </component>
+  <component name="WindowStateProjectService">
+    <state width="1072" height="162" key="GridCell.Tab.0.bottom" timestamp="1583917235192">
+      <screen x="0" y="0" width="1093" height="574" />
+    </state>
+    <state width="1072" height="162" key="GridCell.Tab.0.bottom/0.0.1093.574@0.0.1093.574" timestamp="1583917235192" />
+    <state width="1072" height="162" key="GridCell.Tab.0.center" timestamp="1583917235192">
+      <screen x="0" y="0" width="1093" height="574" />
+    </state>
+    <state width="1072" height="162" key="GridCell.Tab.0.center/0.0.1093.574@0.0.1093.574" timestamp="1583917235192" />
+    <state width="1072" height="162" key="GridCell.Tab.0.left" timestamp="1583917235191">
+      <screen x="0" y="0" width="1093" height="574" />
+    </state>
+    <state width="1072" height="162" key="GridCell.Tab.0.left/0.0.1093.574@0.0.1093.574" timestamp="1583917235191" />
+    <state width="1072" height="162" key="GridCell.Tab.0.right" timestamp="1583917235192">
+      <screen x="0" y="0" width="1093" height="574" />
+    </state>
+    <state width="1072" height="162" key="GridCell.Tab.0.right/0.0.1093.574@0.0.1093.574" timestamp="1583917235192" />
+    <state width="1072" height="162" key="GridCell.Tab.1.bottom" timestamp="1583917235195">
+      <screen x="0" y="0" width="1093" height="574" />
+    </state>
+    <state width="1072" height="162" key="GridCell.Tab.1.bottom/0.0.1093.574@0.0.1093.574" timestamp="1583917235195" />
+    <state width="1072" height="162" key="GridCell.Tab.1.center" timestamp="1583917235194">
+      <screen x="0" y="0" width="1093" height="574" />
+    </state>
+    <state width="1072" height="162" key="GridCell.Tab.1.center/0.0.1093.574@0.0.1093.574" timestamp="1583917235194" />
+    <state width="1072" height="162" key="GridCell.Tab.1.left" timestamp="1583917235193">
+      <screen x="0" y="0" width="1093" height="574" />
+    </state>
+    <state width="1072" height="162" key="GridCell.Tab.1.left/0.0.1093.574@0.0.1093.574" timestamp="1583917235193" />
+    <state width="1072" height="162" key="GridCell.Tab.1.right" timestamp="1583917235194">
+      <screen x="0" y="0" width="1093" height="574" />
+    </state>
+    <state width="1072" height="162" key="GridCell.Tab.1.right/0.0.1093.574@0.0.1093.574" timestamp="1583917235194" />
+    <state x="50" y="0" key="SettingsEditor" timestamp="1583913520406">
+      <screen x="0" y="0" width="1093" height="574" />
+    </state>
+    <state x="50" y="0" key="SettingsEditor/0.0.1093.574@0.0.1093.574" timestamp="1583913520406" />
+    <state x="239" y="116" key="com.intellij.ide.util.TipDialog" timestamp="1583982955851">
+      <screen x="0" y="0" width="1093" height="574" />
+    </state>
+    <state x="239" y="116" key="com.intellij.ide.util.TipDialog/0.0.1093.574@0.0.1093.574" timestamp="1583982955851" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -293,20 +339,6 @@
         <watch expression="maxlen" language="Python" />
       </configuration>
     </watches-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/LeetCodeExercises$design.coverage" NAME="design Coverage Results" MODIFIED="1568182816243" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm" />
-    <SUITE FILE_PATH="coverage/LeetCodeExercises$hash_map.coverage" NAME="hash_map Coverage Results" MODIFIED="1569657339227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hash" />
-    <SUITE FILE_PATH="coverage/LeetCodeExercises$test.coverage" NAME="test Coverage Results" MODIFIED="1568710507500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm" />
-    <SUITE FILE_PATH="coverage/LeetCodeExercises$summary.coverage" NAME="summary Coverage Results" MODIFIED="1569736305309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hash" />
-    <SUITE FILE_PATH="coverage/LeetCodeExercises$sort_and_seek.coverage" NAME="sort_and_seek Coverage Results" MODIFIED="1567778880335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm" />
-    <SUITE FILE_PATH="coverage/LeetCodeExercises$dp.coverage" NAME="dp Coverage Results" MODIFIED="1568178696199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm" />
-    <SUITE FILE_PATH="coverage/LeetCodeExercises$pytest.coverage" NAME="pytest Coverage Results" MODIFIED="1568178832556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/engine" />
-    <SUITE FILE_PATH="coverage/LeetCodeExercises$linked_list_exercises.coverage" NAME="linked_list_exercises Coverage Results" MODIFIED="1564135329661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm" />
-    <SUITE FILE_PATH="coverage/LeetCodeExercises$design_hash_table.coverage" NAME="design_hash_table Coverage Results" MODIFIED="1568798389781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hash" />
-    <SUITE FILE_PATH="coverage/LeetCodeExercises$hash_set.coverage" NAME="hash_set Coverage Results" MODIFIED="1568809091608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hash" />
-    <SUITE FILE_PATH="coverage/LeetCodeExercises$others.coverage" NAME="others Coverage Results" MODIFIED="1568719694284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm" />
-    <SUITE FILE_PATH="coverage/LeetCodeExercises$tree.coverage" NAME="tree Coverage Results" MODIFIED="1566818820644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Algorithm" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
