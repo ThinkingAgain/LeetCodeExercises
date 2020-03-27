@@ -1,0 +1,13 @@
+D:\workspace\github\ThinkingAgain\LeetCodeExercises\CSharp\Solution\ConsoleSolution\bin\Debug\netcoreapp3.1\ConsoleSolution.exe
+D:\workspace\github\ThinkingAgain\LeetCodeExercises\CSharp\Solution\ConsoleSolution\bin\Debug\netcoreapp3.1\ConsoleSolution.deps.json
+D:\workspace\github\ThinkingAgain\LeetCodeExercises\CSharp\Solution\ConsoleSolution\bin\Debug\netcoreapp3.1\ConsoleSolution.runtimeconfig.json
+D:\workspace\github\ThinkingAgain\LeetCodeExercises\CSharp\Solution\ConsoleSolution\bin\Debug\netcoreapp3.1\ConsoleSolution.runtimeconfig.dev.json
+D:\workspace\github\ThinkingAgain\LeetCodeExercises\CSharp\Solution\ConsoleSolution\bin\Debug\netcoreapp3.1\ConsoleSolution.dll
+D:\workspace\github\ThinkingAgain\LeetCodeExercises\CSharp\Solution\ConsoleSolution\bin\Debug\netcoreapp3.1\ConsoleSolution.pdb
+D:\workspace\github\ThinkingAgain\LeetCodeExercises\CSharp\Solution\ConsoleSolution\obj\Debug\netcoreapp3.1\ConsoleSolution.csprojAssemblyReference.cache
+D:\workspace\github\ThinkingAgain\LeetCodeExercises\CSharp\Solution\ConsoleSolution\obj\Debug\netcoreapp3.1\ConsoleSolution.AssemblyInfoInputs.cache
+D:\workspace\github\ThinkingAgain\LeetCodeExercises\CSharp\Solution\ConsoleSolution\obj\Debug\netcoreapp3.1\ConsoleSolution.AssemblyInfo.cs
+D:\workspace\github\ThinkingAgain\LeetCodeExercises\CSharp\Solution\ConsoleSolution\obj\Debug\netcoreapp3.1\ConsoleSolution.dll
+D:\workspace\github\ThinkingAgain\LeetCodeExercises\CSharp\Solution\ConsoleSolution\obj\Debug\netcoreapp3.1\ConsoleSolution.pdb
+D:\workspace\github\ThinkingAgain\LeetCodeExercises\CSharp\Solution\ConsoleSolution\obj\Debug\netcoreapp3.1\ConsoleSolution.csproj.CoreCompileInputs.cache
+D:\workspace\github\ThinkingAgain\LeetCodeExercises\CSharp\Solution\ConsoleSolution\obj\Debug\netcoreapp3.1\ConsoleSolution.genruntimeconfig.cache
